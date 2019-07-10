@@ -1,0 +1,12 @@
+{
+    "name": "Angular-Env",
+    "image": "angular-env",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "appPort": 4200,
+    "extensions": [
+        "mikael.angular-beastcode",
+        "ms-vscode.vscode-typescript-tslint-plugin"
+    ],
+    "shutdownAction": "stopContainer"
+}
